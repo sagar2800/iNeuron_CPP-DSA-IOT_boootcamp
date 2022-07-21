@@ -76,9 +76,39 @@ int main()
 }
 
 //7. Write a program to find the position of first 1 in LSB.
+#include<stdio.h>
+int main()
+{
+    int i,n,result,count = 0;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    while(1)
+    {
+        count++;
+        result = n&1;//LSB
+        if(result == 1)
+            break;
+        n = n>>1;
+    }
+    printf("Position of first 1 in LSB is %d", count);
+    return 0;
+}
 
 //8. Write a program to check whether the given number is even or odd using a bitwise operator.
+#include<stdio.h>
+int main()
+{
+    int n,result,count = 0;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    result = n&1;
+    if(result == 0)
+        printf("%d is an even number", n);
+    else
+        printf("%d is an odd number", n);
+    return 0;
 
+}
 
 //9. Write a program to print size of an int, a float, a char and a double type variable
 #include<stdio.h>
