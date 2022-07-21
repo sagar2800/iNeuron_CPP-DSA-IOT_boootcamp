@@ -1,2 +1,3 @@
-# iNeuron_CPP-DSA-IOT_boootcamp
+# All assignments can be found here
+
 iNeuron (C++,DSA,IOT)
