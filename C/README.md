@@ -15,3 +15,7 @@ Assignemnt - 7 : More on Iterative Control Statements (Part - 2)
 Assignemnt - 8 : Pattern Problems
 
 Assignemnt - 9 : Switch Case Problem
+
+Assignment - 10: Functions in C Language
+
+Assignment - 11: More on functions in C Language
